@@ -1,0 +1,225 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+    font-family: "roboto";
+    
+}
+.header{
+    background-color: #6E6751;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;
+    height: fit-content;
+    position: sticky;
+    top: -20px;
+    z-index: 999;
+}
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    display: flex;
+    content: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/BSicon_REPTILE.svg/640px-BSicon_REPTILE.svg.png);
+    
+    width: 100px;
+    height: 100px;
+
+}
+
+li{
+    list-style: none;
+    
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+ul{
+    display: flex;
+    gap: 18px;
+    padding: 0;
+    font-size: 18px;
+}
+
+
+.first{
+    background-color: #928A6C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+}
+.left h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+   
+}
+.left p{
+    font-size: 24px;
+    font-style: italic;
+    width: 400px;
+    color: white;
+}
+button{
+    padding: 7px;
+    background-color: rgb(49, 74, 218);
+    border-radius: 3mm;
+    font-size: 20px;
+}
+button:hover{
+    background-color: rgb(100, 100, 224);
+}
+.right{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    
+    
+}
+.seconde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.h2{
+    font-size: 30px;
+    margin-bottom: 32px;
+    margin-top: 20px;
+    font-family: monospace;
+}
+.boxes{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 52px;
+}
+
+.info{
+    max-width: 200px;
+    min-width: 200px;
+}
+.info:hover{
+    color: #6E6751;
+}
+.info img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.text{
+    font-size: large;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+.third{
+    background-color: #969283;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    margin-top: 20px;
+    
+}
+.third p{
+    font-size: 20px;
+    line-height: 2em;
+    color: white;
+    font-family: Verdana, "Geneva", Tahoma, sans-serif;
+    width: 400px;
+}
+span{
+    font-size: 20px;
+    color: white;
+    font-weight: bold; 
+    margin-top: 100px;
+    
+}
+.last{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+.container{
+    background-color: #3dc5e7;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    border-radius: 10px;
+
+}
+.ktaba{
+    text-align: justify;
+    color: white;
+    font-family: sans-serif;
+}
+.tit{
+    font-size: 29px;
+    
+    font-weight: bold;
+}
+.tit2{
+    font-size: 24px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    padding: 16px;
+    color: blue;
+}
