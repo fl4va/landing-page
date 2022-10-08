@@ -97,8 +97,8 @@ button:hover{
     display: flex;
     flex-flow: row wrap;
     gap: 52px;
+    padding-top: 12px;
 }
-
 .info{
     max-width: 200px;
     min-width: 200px;
@@ -111,6 +111,11 @@ button:hover{
     height: 200px;
     
 }
+.info .text{
+    font-size: 22px;
+    color: #02313d;
+}
+
 
 
 .button-29 {
@@ -170,6 +175,7 @@ button:hover{
     justify-content: center;
     height: 300px;
     margin-top: 20px;
+    gap : 100px
     
 }
 .third p{
